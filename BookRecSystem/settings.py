@@ -33,6 +33,7 @@ PROD_ENV = str(os.environ.get("PROD_ENV", False)) == "True"
 ALLOWED_HOSTS = [
     "kitabe-app.herokuapp.com",
     "kitabe.up.railway.app",
+    "kitabe-production.up.railway.app",
     "127.0.0.1",
     "localhost",
 ]
