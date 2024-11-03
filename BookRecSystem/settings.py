@@ -41,6 +41,7 @@ ALLOWED_HOSTS = [
 CSRF_TRUSTED_ORIGINS = [
     "https://kitabe-app.herokuapp.com",
     "https://kitabe.up.railway.app",
+    "kitabe-production.up.railway.app"
 ]
 
 
